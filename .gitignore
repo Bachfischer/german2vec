@@ -103,3 +103,5 @@ venv.bak/
 # mypy
 .mypy_cache/
 fastai
+german_lm
+german_twitter_clas
