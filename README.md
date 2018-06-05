@@ -17,8 +17,8 @@ A pre-trained Language Model using the German Wikipedia Corpus is available from
 
 | Notebook | Task | 
 | ------------- |-------------| 
-| sb-10k-use_pretrained_language_model.ipynb | language model trained on large Wikipedia Corpus| 
-| sb-10k_small_wikipedia_corpus.ipynb| language model trained on small subset of Wikipedia Corpus  (might be useful for debugging)    |   
+| sb-10k-use_pretrained_language_model.ipynb | classifier for [SB-10k]((https://www.spinningbytes.com/resources/germansentiment/)) corpus (built on pre-trained language model) | 
+| sb-10k_small_wikipedia_corpus.ipynb| classifier for [SB-10k]((https://www.spinningbytes.com/resources/germansentiment/)) corpus (built on self-trained language model using German Wikipedia)  |   
 | sb-10k-data_preprocessing.ipynb | data pre-processing steps for [SB-10k: German Sentiment Corpus](https://www.spinningbytes.com/resources/germansentiment/)       |   
 
 
