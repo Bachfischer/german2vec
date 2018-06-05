@@ -2,10 +2,12 @@
 
 ## Overview
 
-This repository contains information and code for building a German Language Model using the [fastai](https://github.com/fastai/fastai) library and applying it on a variety of NLP tasks such as text classification.
+This repository contains documentation and code for building a German Language Model using the [fastai](https://github.com/fastai/fastai) library and applying it on a variety of NLP tasks such as text classification. The language model is based on 3-layer [AWD-LSTM](https://arxiv.org/pdf/1708.02182.pdf) that was first published by [Salesforce Research](https://github.com/salesforce/awd-lstm-lm).
 
-The backbone of the model is trained on the German Wikipedia Corpus and heavily inspired by the [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146) paper from [Jeremy Howard](https://twitter.com/jeremyphoward) and [Sebastian Ruder](https://twitter.com/seb_ruder)
+The backbone of the model is trained on the German Wikipedia Corpus and uses transfer learning to apply it to on text classification tasks (as described in [Universal Language Model Fine-tuning for Text Classification](https://arxiv.org/abs/1801.06146)). 
     
+**Update:**
+
 A pre-trained Language Model using the German Wikipedia Corpus is available from this website: [https://lernapparat.de/german-lm/](https://lernapparat.de/german-lm/). Thanks for sharing, Thomas!
 
 ## Project structure
