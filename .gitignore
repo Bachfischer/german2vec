@@ -102,6 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# manually exclude datasets
 fastai
 german_lm
 german_twitter_clas
+DE_model_dropout_0.1_1cycle_10epochs.pt
