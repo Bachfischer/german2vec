@@ -1,0 +1,7 @@
+sudo apt-get install xorg lxde-core tightvncserver lxterminal xfonts-100dpi
+cat >> ~/.vnc/xstartup
+    lxstartup &
+    /usr/bin/lxsession -s LXDE &
+    <ctrl-d>
+tightvncserver :1 -geometry 1200x900
+tightvncserver -kill :1
