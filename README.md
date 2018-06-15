@@ -14,13 +14,13 @@ A pre-trained Language Model using the German Wikipedia Corpus is available from
 
 * `data/` -- language model for German language (available from [https://lernapparat.de/german-lm/](https://lernapparat.de/german-lm/))
 * `doc/` -- documentation and implementation notes
-* `sb-10k_german_sentiment_classification/` -- raw data for SB-10k Corpus
+* `sb-10k_german_sentiment_classification/` -- raw data for [SB-10k Corpus](https://www.spinningbytes.com/resources/germansentiment/)
 * `scr/` -- notebooks used for various experiments on NLP classification
 
 | Notebook | Task | 
 | ------------- |-------------| 
-| sb-10k-use_pretrained_language_model.ipynb | classifier for [SB-10k]((https://www.spinningbytes.com/resources/germansentiment/)) corpus (built on pre-trained language model) | 
-| sb-10k_small_wikipedia_corpus.ipynb| classifier for [SB-10k]((https://www.spinningbytes.com/resources/germansentiment/)) corpus (built on self-trained language model using German Wikipedia)  |   
+| sb-10k-use_pretrained_language_model.ipynb | classifier for [SB-10k](https://www.spinningbytes.com/resources/germansentiment/) corpus (built on pre-trained language model) | 
+| sb-10k_small_wikipedia_corpus.ipynb| classifier for [SB-10k](https://www.spinningbytes.com/resources/germansentiment/) corpus (built on self-trained language model using German Wikipedia)  |   
 | sb-10k-data_preprocessing.ipynb | data pre-processing steps for [SB-10k: German Sentiment Corpus](https://www.spinningbytes.com/resources/germansentiment/)       |   
 
 
